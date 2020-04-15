@@ -4,6 +4,14 @@
 
 这里想要实现传入动物的类型名称，让工厂来生成我们想要的具体动物。具体操作如下：
 
+在路径`factory\`下新建文件`factory.go`，包名为`factory`：
+
+```go
+package factory
+
+// ...
+```
+
 这里我们定义了动物这种类型`animal`和给动物设置基本信息的方法`SetInfo(name, master string)`，注意SetInfo()方法是要向外暴露的，所有需要首字母大写。
 
 ```go
@@ -74,11 +82,15 @@ func (a AnimalFactory) GetAnimal(animalType string) Speaker {
 }
 ```
 
-然后我们就可以使用了：
+在路径`factory`的同级目录下新建`main.go`用于测试方法：
 
 ```go
+package main
+
+import "github.com/loveshes/go-design-patterns/pattern/factory-pattern/factory"
+
 func main() {
-	var af AnimalFactory
+	var af factory.AnimalFactory
 
 	dog := af.GetAnimal("dog")
 	dog.SetInfo("小黑", "张三")

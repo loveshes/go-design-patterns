@@ -16,6 +16,10 @@
 
 
 
+### 1. 策略模式
 
+[CODE](pattern/strategy-pattern/strategy/strategy.go) | [详解](pattern/strategy-pattern/README.md)
+
+定义了策略家族，分别封装起来，让它们之间可以互相替换，此模式让策略的变化，不会影响到使用策略的客，其实就是多态。也可与简单工厂模式结合，传入参数给工厂，由工厂来生成具体的策略。
 
 
