@@ -1,8 +1,8 @@
 package factory
 
-import "fmt"
-
 // 【简单工厂模式】
+
+import "fmt"
 
 // 动物
 type animal struct {

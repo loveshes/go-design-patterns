@@ -1,5 +1,7 @@
 package decorator
 
+// 【装饰器模式】
+
 import (
 	"fmt"
 	"time"
