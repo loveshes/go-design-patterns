@@ -38,3 +38,19 @@
 
  代理模式，为其它对象提供一种代理以控制对这个对象的访问。
 
+
+
+### 4. 工厂方法模式
+
+[CODE](pattern/factroy-method/factory/factory.go) | [详解](pattern/factroy-method/README.md)
+
+工厂方法模式，定义一个用于创建对象对象的接口，让子类决定实例化哪一个类，工厂方法使一个类的实例化延迟到其子类。
+
+
+
+### 5. 原型模式
+
+[CODE](pattern/prototype-pattern/prototype/prototype.go) | [详解](pattern/prototype-pattern/README.md)
+
+原型模式，用原型实例指定创建对象的种类，并通过拷贝这些原型对象创建新的对象。
+
