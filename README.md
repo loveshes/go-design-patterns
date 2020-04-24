@@ -54,3 +54,10 @@
 
 原型模式，用原型实例指定创建对象的种类，并通过拷贝这些原型对象创建新的对象。
 
+
+
+### 6. 模板方法模式
+
+[CODE](pattern/template-method/template/template.go) | [详解](pattern/template-method/README.md)
+
+定义一个操作中的算法的骨架，将一些步骤延迟到子类中。模板方法使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
