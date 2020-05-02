@@ -61,3 +61,11 @@
 [CODE](pattern/template-method/template/template.go) | [详解](pattern/template-method/README.md)
 
 定义一个操作中的算法的骨架，将一些步骤延迟到子类中。模板方法使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
+
+
+
+### 7. 外观模式
+
+[CODE](pattern/facade-pattern/facade/facade.go) | [详解](pattern/facade-pattern/README.md)
+
+外观模式，为子系统中的一组接口提供一个一致的界面，此模式定义了一个高层接口，这个接口使得这一子系统更加容易使用。
